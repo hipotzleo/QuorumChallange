@@ -1,0 +1,26 @@
+﻿@page
+@using LegalQuorum.Services
+@inject AggregationService Aggregation
+@{
+	var data = Aggregation.GetLegislatorsSummary();
+}
+<h2>Legislators – Support vs Oppose</h2>
+<table role="grid">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Supported</th>
+			<th>Opposed</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var row in data)
+		{
+			<tr>
+				<td>@row.Name</td>
+				<td>@row.Supported</td>
+				<td>@row.Opposed</td>
+			</tr>
+		}
+	</tbody>
+</table>
