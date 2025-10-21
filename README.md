@@ -71,7 +71,7 @@ If you want to run manually:
 
 ```bash
 cd LegalQuorum/bin/Release/net8.0/win-x64/publish
-./LegalQuorum.App --urls=http://localhost:5000
+./LegalQuorum --urls=http://localhost:5000
 ```
 
 Then open your browser and go to:
