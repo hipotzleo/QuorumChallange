@@ -2,7 +2,7 @@
 
 This document explains how to **run the LegalQuorum application** on Windows, Linux, and macOS.
 
-Git Link: https://github.com/hipotzleo/LegalQuorum
+Git Link: https://github.com/hipotzleo/QuorumChallange
 
 ---
 
