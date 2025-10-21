@@ -29,7 +29,7 @@ QuorumChallenge/
 
 ### 2. Running the App
 
-Just **double-click** the file:
+Just **double-click** the file(AS ADMIN):
 
 ```
 StartWindows.bat
